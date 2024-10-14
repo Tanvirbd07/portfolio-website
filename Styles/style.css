@@ -72,13 +72,13 @@ body {
     margin: 60px auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    
+
     /* padding:65px 75px ; */
 }
 
 .intro-content {
     padding: 45px 85px;
-    
+
 }
 
 .intro-title {
@@ -144,30 +144,91 @@ body {
     margin-top: 18px;
 }
 
-.inspiration{
+.inspiration {
     width: 80%;
     margin: 60px auto;
     text-align: center;
-   
+
 }
-.inspiration h3{
-color: rgb(13, 19, 33);
-font-size: 32px;
-font-weight: 800;
-line-height: 32px;
+
+.inspiration h3 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 32px;
 }
-.inspiration p{
+
+.inspiration p {
     width: 80%;
     margin: 20px auto;
     color: rgba(13, 19, 33, 0.705);
 }
-.inspiration-video{
- box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-height: 520px;
-margin-top: 42px;
-display: flex;
-justify-content: center;
-align-items: center;
+
+.inspiration-video {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    height: 520px;
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target {
+    width: 80%;
+    margin: 160px auto;
+}
+
+.target-text h3 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: center;
+}
+
+.target-text p {
+    width: 70%;
+    margin: 20px auto;
+    color: rgba(13, 19, 33, 0.705);
+    text-align: center;
+}
+
+.target-card-section {
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.target-card {
+    width: 31%;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+
+}
+
+.target-card-content {
+    margin: 35px;
+
+}
+
+.target-card-content h4 {
+    color: rgb(13, 19, 33);
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+.target-card-content p {
+    color: rgba(13, 19, 33, 0.705);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.target-card-content a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
 }
