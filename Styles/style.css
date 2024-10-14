@@ -279,3 +279,67 @@ body {
     font-weight: 400;
     line-height: 22px;
 }
+
+.support {
+    width: 80%;
+    margin: 80px auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../photos/handshake.jpg);
+    height: 312px;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.support-content {
+    /* margin: 54px ; */
+    text-align: center;
+
+}
+
+.support-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.support-content p {
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.support-input {
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-input ::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+}
+
+.support-button {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
