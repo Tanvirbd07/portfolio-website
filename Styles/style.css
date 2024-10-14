@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 30px 110px;
-
+    align-items: center;
 }
 
 .nav-button {
@@ -22,4 +22,46 @@ body {
     opacity: .8;
 }
 
-.nav-button-text {}
+.banner {
+    background: url(../photos/Hero-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+
+    margin-block: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-title {
+    color: rgb(13, 19, 33);
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: center;
+}
+
+.banner-description {
+    color: rgba(13, 19, 33, 0.808);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.banner-button {
+    background-color: rgb(13, 19, 33);
+    color: white;
+    padding: 0px 16px;
+    border-radius: 8px;
+    margin-top: 26px;
+    cursor: pointer;
+
+}
